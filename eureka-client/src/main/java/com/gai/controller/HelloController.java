@@ -35,4 +35,9 @@ public class HelloController {
         }
         return result;
     }
+
+    @GetMapping("/a")
+    public String a(){
+        return "b";
+    }
 }
